@@ -1,12 +1,25 @@
 <h3 align="center">About NigTusg.</h3>
-<div style="display:flex" height="auto" width="auto">
+<!-- <h3 align="center">About NigTusg.</h3> 是HTML语法，用于创建居中的三级标题。-->
+<div style="display:flex" height="auto" width="auto"> <!-- 第一个个div表示为第一个大的区间块，用于存放代码-->
+    <!-- <div style="display:flex" height="auto" width="auto"> 是一个HTML标签，用于创建一个HTML元素，这个元素被称为 “div”。“div” 是 “division” 的缩写，意味着它可以用来划分页面的不同部分。
+         在这个标签中，style="display:flex" 是一个CSS属性，它设置了这个div的布局为弹性盒子（flexbox）。弹性盒子是一种用于在页面上对元素进行布局、对齐和分配空间的工具。
+         height="auto" 和 width="auto" 是HTML属性，它们设置了这个div的高度和宽度自动适应其内容的大小。
+    -->
     <div>
         <div style="flex:1">
             <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"></div>
-            Hello！茫茫人海，感谢相遇 🔆
-            <img align="right" alt="GIF" src="https://user-images.githubusercontent.com/105040964/205486218-b8a4f47d-6a8e-420e-bba6-0ddce8c4deac.gif" width="430" height="100%" />
-        </div>
-        </br>
+            Hello！茫茫人海，感谢相遇 🔆  
+            <img align="right" alt="GIF" src="https://user-images.githubusercontent.com/105040964/205486218-b8a4f47d-6a8e-420e-bba6-0ddce8c4deac.gif" width="430" height="100%" /> 
+         </div>
+    <!-- 这是一个HTML标签，用于在网页上插入一张图片 其中，src这部分定义了图片的来源地址，即为图片的URL
+         alt="GIF" 这部分为图片的替代文本，如果图片显示异常，就会显示这个文本
+         align="right"：这部分设置了图片的对齐方式，使图片在其容器中右对齐。
+         width="430"：这部分设置了图片的宽度为430像素。
+         height="100%"：这部分设置了图片的高度为其容器的100%。
+    -->
+    <!-- 在这第一个嵌套的子区间代码块中，分别嵌入了两个div，一个是简介，一个是动图-->
+       
+</br>
         <div style="flex:1" >
             <ul >
               <li>🎇 喜欢分享编程知识，更欢迎来交流学习。 </li>
@@ -14,9 +27,9 @@
               <li>🌀 我的邮箱 : XuZh01050@gmail.com </li>
               <li>🌊 一名计算机科学与技术的本科生 </li>
               <li>🌴 想要去杭州工作  </li>
-            </ul>
-        </div>
-    </div> 
+            </ul>  <!-- <ul> 和 <li> 是用来创建无序列表的HTML标签 -->
+        </div>      
+</div> 
     <br>
     </br>
 
