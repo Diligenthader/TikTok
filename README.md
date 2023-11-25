@@ -1,40 +1,24 @@
-<div align=center><img src="https://img-blog.csdnimg.cn/f56709e579474f4ba755541c6a29e920.jpeg"  width="60%" height="30%"  ></div>
-
-
-<p align = 'center'>
-<a href="https://github.com/xiaodainiao"><img src="https://img.shields.io/badge/GitHub-xiaodainiao-blueviolet?logo=github">
-</a>
- <a href="https://blog.csdn.net/weixin_45043334?spm=1010.2135.3001.5343"><img src="https://img.shields.io/badge/博客-小呆鸟_coding-orange?logo=blogger">
-</a>
-<a href="http://www.xiaodainiao.xyz/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-www.xiaodainiao.xyz-blue?logo=googlehome">
-  </a>
-<a href=""><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%B0%8F%E5%91%86%E9%B8%9F%E5%93%87-critical?logo=wechat">
-</a>
-<a href="https://www.zhihu.com/people/axiao-hong-jia-meng-200"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E5%B0%8F%E5%91%86%E9%B8%9F-ff69b4?logo=zhihu">
-</a>  
-</p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**You just work hard, the rest is up to time**
-
-**个人简介**
-- 学生一枚，热爱编程，从0学c++，自己深有体会，目前学过c++,go,python,数据库,分布式等。个人热爱开源，希望自己学的知识可以和大家共享，并且一起不断进步。
-- 后续打算学分布式框架，以及相关的技术。一些文章也会同步到博客，如果有需要的小伙伴，可以去博客自取。
-
-
-
-
-# TikTokLite
-
-<div align=center><img src="https://img-blog.csdnimg.cn/cc03d16ceea3494e8b38ce0f4a5eb0f6.png" alt="image-20221027202423203" width="65%" height="65%"  ></div>
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**极简抖音**
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[探索本项目相关文档](https://www.apifox.cn/apidoc/shared-8cc50618-0da6-4d5e-a398-76f3b8f766c5/api-18345145)
-
-## 目录
+<h3 align="center">About NigTusg.</h3>
+<div style="display:flex" height="auto" width="auto">
+    <div>
+        <div style="flex:1">
+            <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"></div>
+            Hello！茫茫人海，感谢相遇 🔆
+            <img align="right" alt="GIF" src="https://user-images.githubusercontent.com/105040964/205486218-b8a4f47d-6a8e-420e-bba6-0ddce8c4deac.gif" width="430" height="100%" />
+        </div>
+        </br>
+        <div style="flex:1" >
+            <ul >
+              <li>🎇 喜欢分享编程知识，更欢迎来交流学习。 </li>
+              <li>⛅ 希望有一天能够成为很厉害的架构师。 </li>
+              <li>🌀 我的邮箱 : XuZh01050@gmail.com </li>
+              <li>🌊 一名计算机科学与技术的本科生 </li>
+              <li>🌴 想要去杭州工作  </li>
+            </ul>
+        </div>
+    </div> 
+    <br>
+    </br>
 
 
 
@@ -73,78 +57,136 @@ docker-compose up
 
 ## 目录结构
 
-```c++
-.
-├── common
-│   ├── AuthMiddleware.go
-│   ├── cache.go
-│   └── dbInit.go
-├── config
-│   └── config.go
-├── config.yaml
-├── controller
-│   ├── commentController.go
-│   ├── favortiteController.go
-│   ├── feedController.go
-│   ├── publishController.go
-│   ├── relationController.go
-│   └── userController.go
-├── docker-compose.yml
-├── Dockerfile
-├── go.mod
-├── go.sum
-├── log
-│   └── log.go
-├── main.go
-├── minioStore
-│   └── minioClient.go
-├── proto
-│   ├── pkg
-│   │   ├── comment.pb.go
-│   │   ├── favorite.pb.go
-│   │   ├── feed.pb.go
-│   │   ├── login.pb.go
-│   │   ├── publish.pb.go
-│   │   ├── register.pb.go
-│   │   ├── relation.pb.go
-│   │   └── user.pb.go
-│   └── proto
-│       ├── comment.proto
-│       ├── favorite.proto
-│       ├── feed.proto
-│       ├── login.proto
-│       ├── publish.proto
-│       ├── register.proto
-│       ├── relation.proto
-│       └── user.proto
-├── README.md
-├── redis.conf
-├── repository
-│   ├── commentModel.go
-│   ├── favoriteModel.go
-│   ├── relationModel.go
-│   ├── userModel.go
-│   └── videoModel.go
-├── response
-│   └── response.go
-├── routes
-│   ├── comment.go
-│   ├── favorite.go
-│   ├── publish.go
-│   ├── relation.go
-│   ├── routes.go
-│   └── user.go
-├── service
-│   ├── commentService.go
-│   ├── favoriteService.go
-│   ├── feedService.go
-│   ├── publishService.go
-│   ├── relationService.go
-│   └── userService.go
-├── TikTokLite.sql
-├── util
-│   └── util.go
-└── wait-for.sh
+C:.
+├─.idea
+│  └─dataSources
+│      └─b1278ade-bf74-413c-a427-1bd4fc0f0dcc
+│          └─storage_v2
+│              └─_src_
+│                  └─schema
+├─common
+├─config
+├─controller
+├─log
+├─minioStore
+├─proto
+│  ├─pkg
+│  └─proto
+├─repository
+├─response
+├─routes
+├─service
+└─util
+PS C:\Users\0\Desktop\TikTokLite-main> tree /f
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 04BD-DE10
+C:.
+│  config.yaml
+│  docker-compose.yml
+│  Dockerfile
+│  go.mod
+│  go.sum
+│  main.go
+│  README.md
+│  redis.conf
+│  TikTokLite.sql
+│  wait-for.sh
+│
+├─.idea
+│  │  .gitignore
+│  │  dataSources.local.xml
+│  │  dataSources.xml
+│  │  modules.xml
+│  │  TikTokLite.iml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │
+│  └─dataSources
+│      │  b1278ade-bf74-413c-a427-1bd4fc0f0dcc.xml
+│      │
+│      └─b1278ade-bf74-413c-a427-1bd4fc0f0dcc
+│          └─storage_v2
+│              └─_src_
+│                  └─schema
+│                          information_schema.FNRwLQ.meta
+│                          information_schema.FNRwLQ.zip
+│                          mysql.osA4Bg.meta
+│                          performance_schema.kIw0nw.meta
+│                          sys.zb4BAA.meta
+│                          TikTokLite.yLxFgg.meta
+│                          TikTokLite.yLxFgg.zip
+│
+├─common
+│      AuthMiddleware.go
+│      cache.go
+│      dbInit.go
+│
+├─config
+│      config.go
+│
+├─controller
+│      commentController.go
+│      favortiteController.go
+│      feedController.go
+│      publishController.go
+│      relationController.go
+│      userController.go
+│
+├─log
+│      log.go
+│
+├─minioStore
+│      minioClient.go
+│
+├─proto
+│  ├─pkg
+│  │      comment.pb.go
+│  │      favorite.pb.go
+│  │      feed.pb.go
+│  │      login.pb.go
+│  │      publish.pb.go
+│  │      register.pb.go
+│  │      relation.pb.go
+│  │      user.pb.go
+│  │
+│  └─proto
+│          comment.proto
+│          favorite.proto
+│          feed.proto
+│          login.proto
+│          publish.proto
+│          register.proto
+│          relation.proto
+│          user.proto
+│
+├─repository
+│      commentModel.go
+│      favoriteModel.go
+│      relationModel.go
+│      userModel.go
+│      videoModel.go
+│
+├─response
+│      response.go
+│
+├─routes
+│      comment.go
+│      favorite.go
+│      publish.go
+│      relation.go
+│      routes.go
+│      user.go
+│
+├─service
+│      commentService.go
+│      favoriteService.go
+│      feedService.go
+│      publishService.go
+│      relationService.go
+│      userService.go
+│
+└─util
+        util.go
 ```
 
 - `common`：中间件、数据库初始化
@@ -201,13 +243,6 @@ docker-compose up
 3. 文档管理。修改代码前后，要随时记录文档，跟进开发流程，字最后测试出现问题时，可以找到具体负责人快速解决
 
 
-## 性能测试
-
-通过命令 go tool pprof -http=:6060 "http://localhost:8080/debug/pprof/profile?seconds=120" 生成了两个版本的火焰图，左图为v1.0，右图为v1.2版本，通过对比两张详细火焰图，优化后的相同方法调用时间更短（添加了相应的中间件）
-
-<img src="https://img-blog.csdnimg.cn/51fba6bd3cac43a4b4591a093f32a73f.png" width="65%" height="65%"  >
-<img src="https://img-blog.csdnimg.cn/5c0a9e2f47544d7b9af7bba073de60d1.png" width="65%" height="65%"  >
-
 ## 未来展望
 
 - 分布式
@@ -216,26 +251,9 @@ docker-compose up
 
 <img src="https://img-blog.csdnimg.cn/f8e7445378f04f8ba77772a774c2afc0.png"  width="65%" height="65%" >
 
-## 线上地址
-
-- http://112.74.109.70:8080/
-
 
 
 ## 版本控制
 - 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
-## 贡献者
 
-- 金浩哲
-- 张建红
-- 刘航
-- 薛寅珊
-- 吴志伟
-
-*您也可以查阅仓库为该项目做出贡献的开发者*
-
-
-## 鸣谢
-
-[字节跳动青训营](https://youthcamp.bytedance.com/)
