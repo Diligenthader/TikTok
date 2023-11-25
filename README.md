@@ -55,9 +55,9 @@ docker-compose up
 | 扩展功能二 |            用户关注/取关；用户关注列表、粉丝列表             |
 
 
-## 目录结构
+## 目录结构 
 
-C:.
+```C:.
 ├─.idea
 │  └─dataSources
 │      └─b1278ade-bf74-413c-a427-1bd4fc0f0dcc
